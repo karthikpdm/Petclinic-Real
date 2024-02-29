@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: petclinic
-        image: sevenajay/petclinic7:latest
+        image: karthikbm9945/sonarqube:${BUILD_NUMBER}
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
